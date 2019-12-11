@@ -1,0 +1,12 @@
+name: Franco28
+author: Franco28
+version: 1.2 
+main: me.franco28.Franco28.main
+description: Esto es una caja de comandos (para admins), como, "Health" "Kill", y otros mas que estan en proceso, ESTABLE.
+permission-message: No tienes permisos para usar estos comandos!.
+
+commands:
+ kill:
+ health:
+ food:
+ fly:
