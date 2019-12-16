@@ -5,18 +5,22 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class main extends JavaPlugin {
 	
-	private kill pluginkill = new kill();
+	private cbox adminboxP = new cbox();
 	
     public void onEnable() {
-        getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "Franco28 Admin Plugins cargado con exito!");
-        getCommand(pluginkill.cmd1).setExecutor(pluginkill);
-        getCommand(pluginkill.cmd2).setExecutor(pluginkill);
-        getCommand(pluginkill.cmd3).setExecutor(pluginkill);
-        getCommand(pluginkill.cmd4).setExecutor(pluginkill);
+        getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "Franco28 CBox Admin Plugins cargado con exito!");
+        getCommand(adminboxP.cmd1).setExecutor(adminboxP);
+        getCommand(adminboxP.cmd2).setExecutor(adminboxP);
+        getCommand(adminboxP.cmd3).setExecutor(adminboxP);
+        getCommand(adminboxP.cmd4).setExecutor(adminboxP);
+        getCommand(adminboxP.cmd5).setExecutor(adminboxP);
+        getCommand(adminboxP.cmd6).setExecutor(adminboxP);
+        getCommand(adminboxP.cmd7).setExecutor(adminboxP);
+        getCommand(adminboxP.cmd8).setExecutor(adminboxP);
     }
 
     public void onDisable() {
-    	getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "Franco28 Admin Plugins desactivado!");
+    	getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "Franco28 CBox Admin Plugins desactivado!");
     }
     
 	public void loadConfig() {

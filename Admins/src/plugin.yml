@@ -10,3 +10,7 @@ commands:
  health:
  food:
  fly:
+ cchat:
+ citems:
+ afk:
+ hide:
